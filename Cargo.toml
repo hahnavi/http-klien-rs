@@ -1,0 +1,11 @@
+[package]
+name = "http-klien"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+vendored-openssl = ["openssl/vendored"]
+
+[dependencies]
+base64 = "0.22.1"
+openssl = "0.10"
